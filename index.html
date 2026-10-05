@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mudinda's Hub | Roblox & Gaming</title>
+    
+    <!-- Google Icons Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+    <style>
+        /* GLOBAL RESET & FONTS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); /* Dark Cosmic Vibes */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        /* CONTAINER CARD */
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            max-width: 400px;
+            width: 90%;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* PROFILE HEADER */
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #6d4aff; /* Your Purple Brand Color */
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            border: 4px solid white;
+            box-shadow: 0 0 20px rgba(109, 76, 255, 0.6);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        p {
+            font-size: 1rem;
+            opacity: 0.8;
+            margin-bottom: 30px;
+        }
+
+        /* LINK BUTTONS */
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            padding: 15px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            font-weight: bold;
+            font-size: 1.1rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .link-btn:hover {
+            background: #6d4aff; /* Purple Hover */
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(109, 76, 255, 0.4);
+            border-color: #fff;
+        }
+
+        .link-btn span {
+            font-size: 1.5rem;
+            margin-right: 12px;
+        }
+
+        /* ANIMATION */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* FOOTER */
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- PROFILE PIC PLACEHOLDER (Replace with your actual image URL if you have one) -->
+        <div class="profile-pic">
+            <span class="material-symbols-outlined"> gaming_hub </span>
+        </div>
+
+        <h1>Mudinda's Hub</h1>
+        <p>Roblox Creator | Gamer | Chaos Manager</p>
+
+        <div class="links">
+            <!-- 1. DISCORD SERVER -->
+            <!-- REPLACE '#' WITH YOUR ACTUAL DISCORD SERVER INVITE LINK -->
+            <a href="#" target="_blank" class="link-btn">
+                <span class="material-symbols-outlined"> discord </span>
+                Join My Discord Server
+            </a>
+
+            <!-- 2. YOUTUBE CHANNEL -->
+            <!-- REPLACE '#' WITH YOUR YOUTUBE CHANNEL LINK -->
+            <a href="#" target="_blank" class="link-btn">
+                <span class="material-symbols-outlined"> youtube </span>
+                My YouTube Channel
+            </a>
+
+            <!-- 3. ROBLOX ACCOUNT -->
+            <!-- REPLACE '#' WITH YOUR ROBLOX PROFILE LINK -->
+            <a href="#" target="_blank" class="link-btn">
+                <span class="material-symbols-outlined"> gamepad </span>
+                My Roblox Profile
+            </a>
+
+            <!-- 4. DISCORD ACCOUNT (Direct Message Link) -->
+            <!-- REPLACE 'YOUR_USERNAME' WITH YOUR ACTUAL DISCORD USERNAME -->
+            <a href="https://discordapp.com/users/YOUR_USER_ID_HERE" target="_blank" class="link-btn">
+                <span class="material-symbols-outlined"> person_add </span>
+                DM Me on Discord
+            </a>
+        </div>
+
+        <div class="footer">
+            Made with 💜 by Inda
+        </div>
+    </div>
+
+</body>
+</html>
